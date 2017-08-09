@@ -1,0 +1,17 @@
+h1{
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.container {
+  max-width: 750px;
+}
+
+.form-group, .btn{
+  margin: 10px;
+  max-width: 330px;
+}
+
+.submitted {
+  display: none;
+}
