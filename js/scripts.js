@@ -14,8 +14,13 @@ $(document).ready(function() {
     $(".brand").text(brand);
     $(".size").text(size);
     $(".color").text(color);
+    $(".color").css("color", color);
+
     $("#order-form").slideToggle();
     $(".submitted").slideToggle();
     event.preventDefault();
+  });
+  $("#color").focus(function(){
+    $(".alert").show();
   });
 });
